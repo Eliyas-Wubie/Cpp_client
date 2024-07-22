@@ -1,0 +1,13 @@
+﻿  Cpp_client.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  Generating code
+  12 of 1173 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Cpp_client.vcxproj -> C:\Users\user\Documents\GitHub\Cpp_client\x64\Release\Cpp_client.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

@@ -10,8 +10,15 @@ int main() {
         io_context io_context;
         tcp::socket socket(io_context);
 
+        cout << "ip: ";
+        string ip;
+        getline(cin, ip);
+        cout << "port: ";
+        string x;
+        getline(cin, x);
+        int port = stoi(x);
         // Connect to the server
-        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("192.168.1.9"), 5055));
+        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string(ip), port));
 
         while (true) {
             // Read user input
