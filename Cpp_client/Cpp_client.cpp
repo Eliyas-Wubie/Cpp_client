@@ -11,7 +11,7 @@ int main() {
         tcp::socket socket(io_context);
 
         // Connect to the server
-        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"), 3000));
+        socket.connect(tcp::endpoint(boost::asio::ip::address::from_string("192.168.1.9"), 5055));
 
         while (true) {
             // Read user input
